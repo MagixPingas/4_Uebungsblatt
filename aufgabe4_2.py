@@ -18,7 +18,7 @@ ob das Programm wiederholt werden soll, und implementieren Sie die Wiederholung
 mittels einer while-Schleife.'''
 
 
-def collatz(number, counter = 0, max_val = 0):
+def collatz(number, counter = 1, max_val = 0):
 
     if number > max_val:
         max_val = number
